@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<demos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.silabs.com/ss/Demo.ecore">
+  <demo name="brd4161a.demo.light_app" label="Matter - Light App">
+    <property key="demos.blurb" value="Matter - Light App"/>
+    <property key="core.partCompatibility" value=".*"/>
+    <property key="core.boardCompatibility" value="brd4161a"/>
+    <property key="demos.imageFile" value="Examples/lighting-app/BRD4161A/chip-efr32-lighting-example.s37"/>
+    <property key="core.quality" value="PRODUCTION"/>
+    <description></description>
+   </demo>
+  <demo name="brd4164a.demo.light_app" label="Matter - Light App">
+    <property key="demos.blurb" value="Matter - Light App"/>
+    <property key="core.partCompatibility" value=".*"/>
+    <property key="core.boardCompatibility" value="brd4164a"/>
+    <property key="demos.imageFile" value="Examples/lighting-app/BRD4164A/chip-efr32-lighting-example.s37"/>
+    <property key="core.quality" value="PRODUCTION"/>
+    <description></description>
+   </demo>
+  <demo name="brd4166a.demo.light_app" label="Matter - Light App">
+    <property key="demos.blurb" value="Matter - Light App"/>
+    <property key="core.partCompatibility" value=".*"/>
+    <property key="core.boardCompatibility" value="brd4166a"/>
+    <property key="demos.imageFile" value="Examples/lighting-app/BRD4166A/chip-efr32-lighting-example.s37"/>
+    <property key="core.quality" value="PRODUCTION"/>
+    <description></description>
+   </demo>   
+  <demo name="brd4170a.demo.light_app" label="Matter - Light App">
+    <property key="demos.blurb" value="Matter - Light App"/>
+    <property key="core.partCompatibility" value=".*"/>
+    <property key="core.boardCompatibility" value="brd4170a"/>
+    <property key="demos.imageFile" value="Examples/lighting-app/BRD4170A/chip-efr32-lighting-example.s37"/>
+    <property key="core.quality" value="PRODUCTION"/>
+    <description></description>
+   </demo>    
+  <demo name="brd4186a.demo.light_app" label="Matter - Light App">
+    <property key="demos.blurb" value="Matter - Light App"/>
+    <property key="core.partCompatibility" value=".*"/>
+    <property key="core.boardCompatibility" value="brd4186a"/>
+    <property key="demos.imageFile" value="Examples/lighting-app/BRD4186A/chip-efr32-lighting-example.s37"/>
+    <property key="core.quality" value="PRODUCTION"/>
+    <description></description>
+   </demo>     
+  <demo name="brd4187a.demo.light_app" label="Matter - Light App">
+    <property key="demos.blurb" value="Matter - Light App"/>
+    <property key="core.partCompatibility" value=".*"/>
+    <property key="core.boardCompatibility" value="brd4187a"/>
+    <property key="demos.imageFile" value="Examples/lighting-app/BRD4187A/chip-efr32-lighting-example.s37"/>
+    <property key="core.quality" value="PRODUCTION"/>
+    <description></description>
+   </demo> 
+  <demo name="brd4161a.demo.lock_app" label="Matter - Lock App">
+    <property key="demos.blurb" value="Matter - Lock App"/>
+    <property key="core.partCompatibility" value=".*"/>
+    <property key="core.boardCompatibility" value="brd4161a"/>
+    <property key="demos.imageFile" value="Examples/lock-app/BRD4161A/chip-efr32-lock-example.s37"/>
+    <property key="core.quality" value="PRODUCTION"/>
+    <description></description>
+   </demo>
+  <demo name="brd4164a.demo.lock_app" label="Matter - Lock App">
+    <property key="demos.blurb" value="Matter - Lock App"/>
+    <property key="core.partCompatibility" value=".*"/>
+    <property key="core.boardCompatibility" value="brd4164a"/>
+    <property key="demos.imageFile" value="Examples/lock-app/BRD4164A/chip-efr32-lock-example.s37"/>
+    <property key="core.quality" value="PRODUCTION"/>
+    <description></description>
+   </demo>
+  <demo name="brd4166a.demo.lock_app" label="Matter - Lock App">
+    <property key="demos.blurb" value="Matter - Lock App"/>
+    <property key="core.partCompatibility" value=".*"/>
+    <property key="core.boardCompatibility" value="brd4166a"/>
+    <property key="demos.imageFile" value="Examples/lock-app/BRD4166A/chip-efr32-lock-example.s37"/>
+    <property key="core.quality" value="PRODUCTION"/>
+    <description></description>
+   </demo> 
+  <demo name="brd4161a.demo.lock_app" label="Matter - Lock App">
+    <property key="demos.blurb" value="Matter - Lock App"/>
+    <property key="core.partCompatibility" value=".*"/>
+    <property key="core.boardCompatibility" value="brd4170a"/>
+    <property key="demos.imageFile" value="Examples/lock-app/BRD4170A/chip-efr32-lock-example.s37"/>
+    <property key="core.quality" value="PRODUCTION"/>
+    <description></description>
+   </demo>  
+  <demo name="brd4186a.demo.lock_app" label="Matter - Lock App">
+    <property key="demos.blurb" value="Matter - Lock App"/>
+    <property key="core.partCompatibility" value=".*"/>
+    <property key="core.boardCompatibility" value="brd4186a"/>
+    <property key="demos.imageFile" value="Examples/lock-app/BRD4186A/chip-efr32-lock-example.s37"/>
+    <property key="core.quality" value="PRODUCTION"/>
+    <description></description>
+   </demo>  
+  <demo name="brd4187a.demo.lock_app" label="Matter - Lock App">
+    <property key="demos.blurb" value="Matter - Lock App"/>
+    <property key="core.partCompatibility" value=".*"/>
+    <property key="core.boardCompatibility" value="brd4187a"/>
+    <property key="demos.imageFile" value="Examples/lock-app/BRD4187A/chip-efr32-lock-example.s37"/>
+    <property key="core.quality" value="PRODUCTION"/>
+    <description></description>
+   </demo>       
+</demos>

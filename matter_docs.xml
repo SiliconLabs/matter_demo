@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<contentItems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.silabs.com/ss/ContentItem.ecore">
+  <contentItemData label="Matter Readme" itemURI="../README.md" category="Readme" priority="40">
+    <property key="core.category" value="Readme"/>
+    <property key="core.priority" value="40"/>
+    <property key="core.partCompatibility" value=".*"/>
+    <property key="core.boardCompatibility" value=".*"/>
+    <description>The intial readme for the Matter SDK</description>
+  </contentItemData>
+  <contentItemData label="Developing Matter in VSCode" itemURI="../docs/VSCODE_DEVELOPMENT.md" category="Readme" priority="40">
+    <property key="core.category" value="Readme"/>
+    <property key="core.priority" value="40"/>
+    <property key="core.partCompatibility" value=".*"/>
+    <property key="core.boardCompatibility" value=".*"/>
+    <description>How to develop Matter in VSCode</description>
+  </contentItemData>
+</contentItems>

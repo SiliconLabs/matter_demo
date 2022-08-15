@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="ASCII"?>
+<model:MDescriptors xmlns:model="http://www.silabs.com/ss/Studio.ecore">
+  <descriptors name="matter_global_sdk" label="Matter SDK" description="Launch VSCode against the entire Matter SDK to develop Matter.">
+    <properties key="namespace" value="template.external.vscode"/>
+    <properties key="keywords" value="matter"/>
+    <properties key="projectFilePaths" value="../"/>
+    <properties key="readmeFiles" value="../docs/VSCODE_DEVELOPMENT.md"/>
+    <properties key="boardCompatibility" value=".*"/>
+    <properties key="partCompatibility" value="mcu.arm.efr32"/>
+    <properties key="ideCompatibility" value="visual-studio-code"/>
+    <properties key="toolchainCompatibility" value="none"/>
+    <properties key="category" value="Matter Examples"/>
+    <properties key="quality" value="PRODUCTION"/>
+  </descriptors>
+</model:MDescriptors>
