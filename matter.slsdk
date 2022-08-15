@@ -1,0 +1,11 @@
+﻿# Properties file for Simplicity Studio metadata
+id=com.silabs.sdk.matter_demo
+
+version=0.3.0
+
+label=Matter Enablement Package
+description=Matter Enablement Package
+
+prop.file.docsFile=matter_docs.xml
+prop.file.demosFile=matter_demos.xml
+prop.subLabel=Matter\\ Demo
