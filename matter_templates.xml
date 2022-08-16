@@ -4,7 +4,7 @@
     <properties key="namespace" value="template.external.vscode"/>
     <properties key="keywords" value="matter"/>
     <properties key="projectFilePaths" value="../"/>
-    <properties key="readmeFiles" value="../docs/VSCODE_DEVELOPMENT.md"/>
+    <properties key="readmeFiles" value="../docs/dev/vscode/VSCODE_DEVELOPMENT.md"/>
     <properties key="boardCompatibility" value=".*"/>
     <properties key="partCompatibility" value="mcu.arm.efr32"/>
     <properties key="ideCompatibility" value="visual-studio-code"/>
