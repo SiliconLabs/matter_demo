@@ -7,7 +7,7 @@
     <property key="core.boardCompatibility" value=".*"/>
     <description>The intial readme for the Matter SDK</description>
   </contentItemData>
-  <contentItemData label="Developing Matter in VSCode" itemURI="../docs/dev/vscode/VSCODE_DEVELOPMENT.md" category="Readme" priority="40">
+  <contentItemData label="Developing Matter in VSCode" itemURI="/docs/dev/vscode/VSCODE_DEVELOPMENT.md" category="Readme" priority="40">
     <property key="core.category" value="Readme"/>
     <property key="core.priority" value="40"/>
     <property key="core.partCompatibility" value=".*"/>
