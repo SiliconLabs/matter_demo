@@ -1,113 +1,535 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <demos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.silabs.com/ss/Demo.ecore">
-  <demo name="brd4161a.demo.light_app" label="Matter - Light App">
+  <demo name="brd2601B.demo.light_app_thread" label="Matter - Light App">
     <property key="demos.blurb" value="Matter - Light App"/>
     <property key="core.partCompatibility" value=".*"/>
-    <property key="core.boardCompatibility" value="brd4161a"/>
-    <property key="demos.imageFile" value="Examples/lighting-app/BRD4161A/chip-efr32-lighting-example.s37"/>
+    <property key="core.boardCompatibility" value="brd2601b"/>
+    <property key="demos.imageFile" value="Examples/lighting-app-thread/BRD2601B/chip-efr32-lighting-example.s37"/>
     <property key="core.readmeFiles" value="docs/matter_readme.html"/>
     <property key="core.quality" value="PRODUCTION"/>
     <property key="filters" value="Wireless\ Technology|Matter"/>
     <description> This is a Matter Lighting Application demo </description>
    </demo>
-  <demo name="brd4164a.demo.light_app" label="Matter - Light App">
+  <demo name="brd2703A.demo.light_app_thread" label="Matter - Light App">
+    <property key="demos.blurb" value="Matter - Light App"/>
+    <property key="core.partCompatibility" value=".*"/>
+    <property key="core.boardCompatibility" value="brd2703a"/>
+    <property key="demos.imageFile" value="Examples/lighting-app-thread/BRD2703A/chip-efr32-lighting-example.s37"/>
+    <property key="core.readmeFiles" value="docs/matter_readme.html"/>
+    <property key="core.quality" value="PRODUCTION"/>
+    <property key="filters" value="Wireless\ Technology|Matter"/>
+    <description> This is a Matter Lighting Application demo </description>
+   </demo>
+  <demo name="brd4161a.demo.light_app_thread" label="Matter - Light App">
+    <property key="demos.blurb" value="Matter - Light App"/>
+    <property key="core.partCompatibility" value=".*"/>
+    <property key="core.boardCompatibility" value="brd4161a"/>
+    <property key="demos.imageFile" value="Examples/lighting-app-thread/BRD4161A/chip-efr32-lighting-example.s37"/>
+    <property key="core.readmeFiles" value="docs/matter_readme.html"/>
+    <property key="core.quality" value="PRODUCTION"/>
+    <property key="filters" value="Wireless\ Technology|Matter"/>
+    <description> This is a Matter Lighting Application demo </description>
+   </demo>
+  <demo name="brd4164a.demo.light_app_thread" label="Matter - Light App">
     <property key="demos.blurb" value="Matter - Light App"/>
     <property key="core.partCompatibility" value=".*"/>
     <property key="core.boardCompatibility" value="brd4164a"/>
-    <property key="demos.imageFile" value="Examples/lighting-app/BRD4164A/chip-efr32-lighting-example.s37"/>
+    <property key="demos.imageFile" value="Examples/lighting-app-thread/BRD4164A/chip-efr32-lighting-example.s37"/>
     <property key="core.quality" value="PRODUCTION"/>
     <property key="filters" value="Wireless\ Technology|Matter"/>    
     <description></description>
    </demo>
-  <demo name="brd4166a.demo.light_app" label="Matter - Light App">
+  <demo name="brd4166a.demo.light_app_thread" label="Matter - Light App">
     <property key="demos.blurb" value="Matter - Light App"/>
     <property key="core.partCompatibility" value=".*"/>
     <property key="core.boardCompatibility" value="brd4166a"/>
-    <property key="demos.imageFile" value="Examples/lighting-app/BRD4166A/chip-efr32-lighting-example.s37"/>
+    <property key="demos.imageFile" value="Examples/lighting-app-thread/BRD4166A/chip-efr32-lighting-example.s37"/>
     <property key="core.quality" value="PRODUCTION"/>
     <property key="filters" value="Wireless\ Technology|Matter"/>    
     <description></description>
    </demo>   
-  <demo name="brd4170a.demo.light_app" label="Matter - Light App">
+  <demo name="brd4170a.demo.light_app_thread" label="Matter - Light App">
     <property key="demos.blurb" value="Matter - Light App"/>
     <property key="core.partCompatibility" value=".*"/>
     <property key="core.boardCompatibility" value="brd4170a"/>
-    <property key="demos.imageFile" value="Examples/lighting-app/BRD4170A/chip-efr32-lighting-example.s37"/>
+    <property key="demos.imageFile" value="Examples/lighting-app-thread/BRD4170A/chip-efr32-lighting-example.s37"/>
     <property key="core.quality" value="PRODUCTION"/>
     <property key="filters" value="Wireless\ Technology|Matter"/>    
     <description></description>
    </demo>    
-  <demo name="brd4186a.demo.light_app" label="Matter - Light App">
+  <demo name="brd4186a.demo.light_app_thread" label="Matter - Light App">
     <property key="demos.blurb" value="Matter - Light App"/>
     <property key="core.partCompatibility" value=".*"/>
     <property key="core.boardCompatibility" value="brd4186a"/>
-    <property key="demos.imageFile" value="Examples/lighting-app/BRD4186A/chip-efr32-lighting-example.s37"/>
+    <property key="demos.imageFile" value="Examples/lighting-app-thread/BRD4186A/chip-efr32-lighting-example.s37"/>
     <property key="core.quality" value="PRODUCTION"/>
     <property key="filters" value="Wireless\ Technology|Matter"/>    
     <description></description>
-   </demo>     
-  <demo name="brd4187a.demo.light_app" label="Matter - Light App">
+   </demo>    
+  <demo name="brd4186c.demo.light_app_thread" label="Matter - Light App">
+    <property key="demos.blurb" value="Matter - Light App"/>
+    <property key="core.partCompatibility" value=".*"/>
+    <property key="core.boardCompatibility" value="brd4186c"/>
+    <property key="demos.imageFile" value="Examples/lighting-app-thread/BRD4186C/chip-efr32-lighting-example.s37"/>
+    <property key="core.quality" value="PRODUCTION"/>
+    <property key="filters" value="Wireless\ Technology|Matter"/>    
+    <description></description>
+   </demo>      
+  <demo name="brd4187a.demo.light_app_thread" label="Matter - Light App">
     <property key="demos.blurb" value="Matter - Light App"/>
     <property key="core.partCompatibility" value=".*"/>
     <property key="core.boardCompatibility" value="brd4187a"/>
-    <property key="demos.imageFile" value="Examples/lighting-app/BRD4187A/chip-efr32-lighting-example.s37"/>
+    <property key="demos.imageFile" value="Examples/lighting-app-thread/BRD4187A/chip-efr32-lighting-example.s37"/>
     <property key="core.quality" value="PRODUCTION"/>
     <property key="filters" value="Wireless\ Technology|Matter"/>    
     <description></description>
    </demo> 
-  <demo name="brd4161a.demo.lock_app" label="Matter - Lock App">
+  <demo name="brd4187c.demo.light_app_thread" label="Matter - Light App">
+    <property key="demos.blurb" value="Matter - Light App"/>
+    <property key="core.partCompatibility" value=".*"/>
+    <property key="core.boardCompatibility" value="brd4187c"/>
+    <property key="demos.imageFile" value="Examples/lighting-app-thread/BRD4187C/chip-efr32-lighting-example.s37"/>
+    <property key="core.quality" value="PRODUCTION"/>
+    <property key="filters" value="Wireless\ Technology|Matter"/>    
+    <description></description>
+   </demo>    
+  <demo name="brd4161a.demo.light_app_wifi_wf200" label="Matter - Light App">
+    <property key="demos.blurb" value="Matter - Light App"/>
+    <property key="core.partCompatibility" value=".*"/>
+    <property key="core.boardCompatibility" value="brd4161a"/>
+    <property key="demos.imageFile" value="Examples/lighting-app-wifi/wf200/BRD4161A/chip-efr32-lighting-example.s37"/>
+    <property key="core.readmeFiles" value="docs/matter_readme.html"/>
+    <property key="core.quality" value="PRODUCTION"/>
+    <property key="filters" value="Wireless\ Technology|Matter"/>
+    <description> This is a Matter Lighting Application demo </description>
+   </demo>
+  <demo name="brd4162a.demo.light_app_wifi_wf200" label="Matter - Light App">
+    <property key="demos.blurb" value="Matter - Light App"/>
+    <property key="core.partCompatibility" value=".*"/>
+    <property key="core.boardCompatibility" value="brd4162a"/>
+    <property key="demos.imageFile" value="Examples/lighting-app-wifi/wf200/BRD4162A/chip-efr32-lighting-example.s37"/>
+    <property key="core.readmeFiles" value="docs/matter_readme.html"/>
+    <property key="core.quality" value="PRODUCTION"/>
+    <property key="filters" value="Wireless\ Technology|Matter"/>
+    <description> This is a Matter Lighting Application demo </description>
+   </demo> 
+  <demo name="brd4163a.demo.light_app_wifi_wf200" label="Matter - Light App">
+    <property key="demos.blurb" value="Matter - Light App"/>
+    <property key="core.partCompatibility" value=".*"/>
+    <property key="core.boardCompatibility" value="brd4163a"/>
+    <property key="demos.imageFile" value="Examples/lighting-app-wifi/wf200/BRD4163A/chip-efr32-lighting-example.s37"/>
+    <property key="core.readmeFiles" value="docs/matter_readme.html"/>
+    <property key="core.quality" value="PRODUCTION"/>
+    <property key="filters" value="Wireless\ Technology|Matter"/>
+    <description> This is a Matter Lighting Application demo </description>
+   </demo>
+  <demo name="brd4164a.demo.light_app_wifi_wf200" label="Matter - Light App">
+    <property key="demos.blurb" value="Matter - Light App"/>
+    <property key="core.partCompatibility" value=".*"/>
+    <property key="core.boardCompatibility" value="brd4164a"/>
+    <property key="demos.imageFile" value="Examples/lighting-app-wifi/wf200/BRD4164A/chip-efr32-lighting-example.s37"/>
+    <property key="core.readmeFiles" value="docs/matter_readme.html"/>
+    <property key="core.quality" value="PRODUCTION"/>
+    <property key="filters" value="Wireless\ Technology|Matter"/>
+    <description> This is a Matter Lighting Application demo </description>
+   </demo>
+  <demo name="brd4161a.demo.light_app_wifi_rs9116" label="Matter - Light App">
+    <property key="demos.blurb" value="Matter - Light App"/>
+    <property key="core.partCompatibility" value=".*"/>
+    <property key="core.boardCompatibility" value="brd4161a"/>
+    <property key="demos.imageFile" value="Examples/lighting-app-wifi/rs9116/BRD4161A/chip-efr32-lighting-example.s37"/>
+    <property key="core.quality" value="PRODUCTION"/>
+    <property key="filters" value="Wireless\ Technology|Matter"/>    
+    <description></description>
+   </demo>
+  <demo name="brd4162a.demo.light_app_wifi_rs9116" label="Matter - Light App">
+    <property key="demos.blurb" value="Matter - Light App"/>
+    <property key="core.partCompatibility" value=".*"/>
+    <property key="core.boardCompatibility" value="brd4162a"/>
+    <property key="demos.imageFile" value="Examples/lighting-app-wifi/rs9116/BRD4162A/chip-efr32-lighting-example.s37"/>
+    <property key="core.quality" value="PRODUCTION"/>
+    <property key="filters" value="Wireless\ Technology|Matter"/>    
+    <description></description>
+   </demo>  
+  <demo name="brd41643.demo.light_app_wifi_rs9116" label="Matter - Light App">
+    <property key="demos.blurb" value="Matter - Light App"/>
+    <property key="core.partCompatibility" value=".*"/>
+    <property key="core.boardCompatibility" value="brd4163a"/>
+    <property key="demos.imageFile" value="Examples/lighting-app-wifi/rs9116/BRD4163A/chip-efr32-lighting-example.s37"/>
+    <property key="core.quality" value="PRODUCTION"/>
+    <property key="filters" value="Wireless\ Technology|Matter"/>    
+    <description></description>
+   </demo> 
+  <demo name="brd4164a.demo.light_app_wifi_rs9116" label="Matter - Light App">
+    <property key="demos.blurb" value="Matter - Light App"/>
+    <property key="core.partCompatibility" value=".*"/>
+    <property key="core.boardCompatibility" value="brd4164a"/>
+    <property key="demos.imageFile" value="Examples/lighting-app-wifi/rs9116/BRD4164A/chip-efr32-lighting-example.s37"/>
+    <property key="core.quality" value="PRODUCTION"/>
+    <property key="filters" value="Wireless\ Technology|Matter"/>    
+    <description></description>
+   </demo> 
+  <demo name="brd4186c.demo.light_app_wifi_rs9116" label="Matter - Light App">
+    <property key="demos.blurb" value="Matter - Light App"/>
+    <property key="core.partCompatibility" value=".*"/>
+    <property key="core.boardCompatibility" value="brd4186c"/>
+    <property key="demos.imageFile" value="Examples/lighting-app-wifi/rs9116/BRD4186C/chip-efr32-lighting-example.s37"/>
+    <property key="core.quality" value="PRODUCTION"/>
+    <property key="filters" value="Wireless\ Technology|Matter"/>    
+    <description></description>
+   </demo>     
+  <demo name="brd4187c.demo.light_app_wifi_rs9116" label="Matter - Light App">
+    <property key="demos.blurb" value="Matter - Light App"/>
+    <property key="core.partCompatibility" value=".*"/>
+    <property key="core.boardCompatibility" value="brd4187c"/>
+    <property key="demos.imageFile" value="Examples/lighting-app-wifi/rs9116/BRD4187C/chip-efr32-lighting-example.s37"/>
+    <property key="core.quality" value="PRODUCTION"/>
+    <property key="filters" value="Wireless\ Technology|Matter"/>    
+    <description></description>
+   </demo>    
+  <demo name="brd4186a.demo.light_app_wifi_rs9116" label="Matter - Light App">
+    <property key="demos.blurb" value="Matter - Light App"/>
+    <property key="core.partCompatibility" value=".*"/>
+    <property key="core.boardCompatibility" value="brd4186a"/>
+    <property key="demos.imageFile" value="Examples/lighting-app-wifi/rs9116/BRD4186A/chip-efr32-lighting-example.s37"/>
+    <property key="core.quality" value="PRODUCTION"/>
+    <property key="filters" value="Wireless\ Technology|Matter"/>    
+    <description></description>
+   </demo>     
+  <demo name="brd4187a.demo.light_app_wifi_rs9116" label="Matter - Light App">
+    <property key="demos.blurb" value="Matter - Light App"/>
+    <property key="core.partCompatibility" value=".*"/>
+    <property key="core.boardCompatibility" value="brd4187a"/>
+    <property key="demos.imageFile" value="Examples/lighting-app-wifi/rs9116/BRD4187A/chip-efr32-lighting-example.s37"/>
+    <property key="core.quality" value="PRODUCTION"/>
+    <property key="filters" value="Wireless\ Technology|Matter"/>    
+    <description></description>
+   </demo> 
+  <demo name="brd2601b.demo.lock_app_thread" label="Matter - Lock App">
+    <property key="demos.blurb" value="Matter - Lock App"/>
+    <property key="core.partCompatibility" value=".*"/>
+    <property key="core.boardCompatibility" value="brd2601B"/>
+    <property key="demos.imageFile" value="Examples/lock-app-thread/BRD2601B/chip-efr32-lock-example.s37"/>
+    <property key="core.readmeFiles" value="docs/matter_readme.html"/>
+    <property key="core.quality" value="PRODUCTION"/>
+    <property key="filters" value="Wireless\ Technology|Matter"/>    
+    <description>This is a Matter Lock Application demo</description>
+   </demo>   
+  <demo name="brd2703a.demo.lock_app_thread" label="Matter - Lock App">
+    <property key="demos.blurb" value="Matter - Lock App"/>
+    <property key="core.partCompatibility" value=".*"/>
+    <property key="core.boardCompatibility" value="brd2703a"/>
+    <property key="demos.imageFile" value="Examples/lock-app-thread/BRD2703A/chip-efr32-lock-example.s37"/>
+    <property key="core.readmeFiles" value="docs/matter_readme.html"/>
+    <property key="core.quality" value="PRODUCTION"/>
+    <property key="filters" value="Wireless\ Technology|Matter"/>    
+    <description>This is a Matter Lock Application demo</description>
+   </demo>      
+  <demo name="brd4161a.demo.lock_app_thread" label="Matter - Lock App">
     <property key="demos.blurb" value="Matter - Lock App"/>
     <property key="core.partCompatibility" value=".*"/>
     <property key="core.boardCompatibility" value="brd4161a"/>
-    <property key="demos.imageFile" value="Examples/lock-app/BRD4161A/chip-efr32-lock-example.s37"/>
+    <property key="demos.imageFile" value="Examples/lock-app-thread/BRD4161A/chip-efr32-lock-example.s37"/>
     <property key="core.readmeFiles" value="docs/matter_readme.html"/>
     <property key="core.quality" value="PRODUCTION"/>
     <property key="filters" value="Wireless\ Technology|Matter"/>    
     <description>This is a Matter Lock Application demo</description>
    </demo>
-  <demo name="brd4164a.demo.lock_app" label="Matter - Lock App">
+  <demo name="brd4164a.demo.lock_app_thread" label="Matter - Lock App">
     <property key="demos.blurb" value="Matter - Lock App"/>
     <property key="core.partCompatibility" value=".*"/>
     <property key="core.boardCompatibility" value="brd4164a"/>
-    <property key="demos.imageFile" value="Examples/lock-app/BRD4164A/chip-efr32-lock-example.s37"/>
+    <property key="demos.imageFile" value="Examples/lock-app-thread/BRD4164A/chip-efr32-lock-example.s37"/>
     <property key="core.quality" value="PRODUCTION"/>
     <property key="filters" value="Wireless\ Technology|Matter"/>    
     <description></description>
    </demo>
-  <demo name="brd4166a.demo.lock_app" label="Matter - Lock App">
+  <demo name="brd4166a.demo.lock_app_thread" label="Matter - Lock App">
     <property key="demos.blurb" value="Matter - Lock App"/>
     <property key="core.partCompatibility" value=".*"/>
     <property key="core.boardCompatibility" value="brd4166a"/>
-    <property key="demos.imageFile" value="Examples/lock-app/BRD4166A/chip-efr32-lock-example.s37"/>
+    <property key="demos.imageFile" value="Examples/lock-app-thread/BRD4166A/chip-efr32-lock-example.s37"/>
     <property key="core.quality" value="PRODUCTION"/>
     <property key="filters" value="Wireless\ Technology|Matter"/>    
     <description></description>
    </demo> 
-  <demo name="brd4161a.demo.lock_app" label="Matter - Lock App">
+  <demo name="brd4170a.demo.lock_app_thread" label="Matter - Lock App">
     <property key="demos.blurb" value="Matter - Lock App"/>
     <property key="core.partCompatibility" value=".*"/>
     <property key="core.boardCompatibility" value="brd4170a"/>
-    <property key="demos.imageFile" value="Examples/lock-app/BRD4170A/chip-efr32-lock-example.s37"/>
+    <property key="demos.imageFile" value="Examples/lock-app-thread/BRD4170A/chip-efr32-lock-example.s37"/>
     <property key="core.quality" value="PRODUCTION"/>
     <property key="filters" value="Wireless\ Technology|Matter"/>    
     <description></description>
    </demo>  
-  <demo name="brd4186a.demo.lock_app" label="Matter - Lock App">
+  <demo name="brd4186a.demo.lock_app_thread" label="Matter - Lock App">
     <property key="demos.blurb" value="Matter - Lock App"/>
     <property key="core.partCompatibility" value=".*"/>
     <property key="core.boardCompatibility" value="brd4186a"/>
-    <property key="demos.imageFile" value="Examples/lock-app/BRD4186A/chip-efr32-lock-example.s37"/>
+    <property key="demos.imageFile" value="Examples/lock-app-thread/BRD4186A/chip-efr32-lock-example.s37"/>
     <property key="core.quality" value="PRODUCTION"/>
     <property key="filters" value="Wireless\ Technology|Matter"/>    
     <description></description>
    </demo>  
-  <demo name="brd4187a.demo.lock_app" label="Matter - Lock App">
+  <demo name="brd4186c.demo.lock_app_thread" label="Matter - Lock App">
     <property key="demos.blurb" value="Matter - Lock App"/>
     <property key="core.partCompatibility" value=".*"/>
-    <property key="core.boardCompatibility" value="brd4187a"/>
-    <property key="demos.imageFile" value="Examples/lock-app/BRD4187A/chip-efr32-lock-example.s37"/>
+    <property key="core.boardCompatibility" value="brd4186c"/>
+    <property key="demos.imageFile" value="Examples/lock-app-thread/BRD4186C/chip-efr32-lock-example.s37"/>
     <property key="core.quality" value="PRODUCTION"/>
     <property key="filters" value="Wireless\ Technology|Matter"/>    
     <description></description>
-   </demo>       
+   </demo>  
+  <demo name="brd4187a.demo.lock_app_thread" label="Matter - Lock App">
+    <property key="demos.blurb" value="Matter - Lock App"/>
+    <property key="core.partCompatibility" value=".*"/>
+    <property key="core.boardCompatibility" value="brd4187a"/>
+    <property key="demos.imageFile" value="Examples/lock-app-thread/BRD4187A/chip-efr32-lock-example.s37"/>
+    <property key="core.quality" value="PRODUCTION"/>
+    <property key="filters" value="Wireless\ Technology|Matter"/>    
+    <description></description>
+   </demo>
+  <demo name="brd4187c.demo.lock_app_thread" label="Matter - Lock App">
+    <property key="demos.blurb" value="Matter - Lock App"/>
+    <property key="core.partCompatibility" value=".*"/>
+    <property key="core.boardCompatibility" value="brd4187c"/>
+    <property key="demos.imageFile" value="Examples/lock-app-thread/BRD4187C/chip-efr32-lock-example.s37"/>
+    <property key="core.quality" value="PRODUCTION"/>
+    <property key="filters" value="Wireless\ Technology|Matter"/>    
+    <description></description>
+   </demo>      
+  <demo name="brd4161a.demo.lock_app_wifi_wf200" label="Matter - Lock App">
+    <property key="demos.blurb" value="Matter - Lock App"/>
+    <property key="core.partCompatibility" value=".*"/>
+    <property key="core.boardCompatibility" value="brd4161a"/>
+    <property key="demos.imageFile" value="Examples/lock-app-wifi//wf200/BRD4161A/chip-efr32-lock-example.s37"/>
+    <property key="core.readmeFiles" value="docs/matter_readme.html"/>
+    <property key="core.quality" value="PRODUCTION"/>
+    <property key="filters" value="Wireless\ Technology|Matter"/>    
+    <description>This is a Matter Lock Application demo</description>
+   </demo>
+  <demo name="brd4162a.demo.lock_app_wifi_wf200" label="Matter - Lock App">
+    <property key="demos.blurb" value="Matter - Lock App"/>
+    <property key="core.partCompatibility" value=".*"/>
+    <property key="core.boardCompatibility" value="brd4162a"/>
+    <property key="demos.imageFile" value="Examples/lock-app-wifi/wf200/BRD4162A/chip-efr32-lock-example.s37"/>
+    <property key="core.quality" value="PRODUCTION"/>
+    <property key="filters" value="Wireless\ Technology|Matter"/>    
+    <description></description>
+   </demo>
+  <demo name="brd4163a.demo.lock_app_wifi_wf200" label="Matter - Lock App">
+    <property key="demos.blurb" value="Matter - Lock App"/>
+    <property key="core.partCompatibility" value=".*"/>
+    <property key="core.boardCompatibility" value="brd4163a"/>
+    <property key="demos.imageFile" value="Examples/lock-app-wifi/wf200/BRD4163A/chip-efr32-lock-example.s37"/>
+    <property key="core.quality" value="PRODUCTION"/>
+    <property key="filters" value="Wireless\ Technology|Matter"/>    
+    <description></description>
+   </demo>
+  <demo name="brd4164a.demo.lock_app_wifi_wf200" label="Matter - Lock App">
+    <property key="demos.blurb" value="Matter - Lock App"/>
+    <property key="core.partCompatibility" value=".*"/>
+    <property key="core.boardCompatibility" value="brd4164a"/>
+    <property key="demos.imageFile" value="Examples/lock-app-thread/BRD4164A/chip-efr32-lock-example.s37"/>
+    <property key="core.quality" value="PRODUCTION"/>
+    <property key="filters" value="Wireless\ Technology|Matter"/>    
+    <description></description>
+   </demo> 
+  <demo name="brd4161a.demo.lock_app_wifi_rs9116" label="Matter - Lock App">
+    <property key="demos.blurb" value="Matter - Lock App"/>
+    <property key="core.partCompatibility" value=".*"/>
+    <property key="core.boardCompatibility" value="brd4161a"/>
+    <property key="demos.imageFile" value="Examples/lock-app-wifi/rs9116/BRD4161A/chip-efr32-lock-example.s37"/>
+    <property key="core.quality" value="PRODUCTION"/>
+    <property key="filters" value="Wireless\ Technology|Matter"/>    
+    <description></description>
+   </demo>  
+  <demo name="brd4162a.demo.lock_app_wifi_rs9116" label="Matter - Lock App">
+    <property key="demos.blurb" value="Matter - Lock App"/>
+    <property key="core.partCompatibility" value=".*"/>
+    <property key="core.boardCompatibility" value="brd4162a"/>
+    <property key="demos.imageFile" value="Examples/lock-app-wifi/rs9116/BRD4162A/chip-efr32-lock-example.s37"/>
+    <property key="core.quality" value="PRODUCTION"/>
+    <property key="filters" value="Wireless\ Technology|Matter"/>    
+    <description></description>
+   </demo>
+  <demo name="brd4163a.demo.lock_app_wifi_rs9116" label="Matter - Lock App">
+    <property key="demos.blurb" value="Matter - Lock App"/>
+    <property key="core.partCompatibility" value=".*"/>
+    <property key="core.boardCompatibility" value="brd4163a"/>
+    <property key="demos.imageFile" value="Examples/lock-app-wifi/rs9116/BRD4163A/chip-efr32-lock-example.s37"/>
+    <property key="core.quality" value="PRODUCTION"/>
+    <property key="filters" value="Wireless\ Technology|Matter"/>    
+    <description></description>
+   </demo> 
+  <demo name="brd4164a.demo.lock_app_wifi_rs9116" label="Matter - Lock App">
+    <property key="demos.blurb" value="Matter - Lock App"/>
+    <property key="core.partCompatibility" value=".*"/>
+    <property key="core.boardCompatibility" value="brd4164a"/>
+    <property key="demos.imageFile" value="Examples/lock-app-wifi/rs9116/BRD4164A/chip-efr32-lock-example.s37"/>
+    <property key="core.quality" value="PRODUCTION"/>
+    <property key="filters" value="Wireless\ Technology|Matter"/>    
+    <description></description>
+   </demo>    
+  <demo name="brd4186c.demo.lock_app_wifi_rs9116" label="Matter - Lock App">
+    <property key="demos.blurb" value="Matter - Lock App"/>
+    <property key="core.partCompatibility" value=".*"/>
+    <property key="core.boardCompatibility" value="brd4186c"/>
+    <property key="demos.imageFile" value="Examples/lock-app-wifi/rs9116/BRD4186C/chip-efr32-lock-example.s37"/>
+    <property key="core.quality" value="PRODUCTION"/>
+    <property key="filters" value="Wireless\ Technology|Matter"/>    
+    <description></description>
+   </demo>  
+  <demo name="brd4187c.demo.lock_app_wifi" label="Matter - Lock App">
+    <property key="demos.blurb" value="Matter - Lock App"/>
+    <property key="core.partCompatibility" value=".*"/>
+    <property key="core.boardCompatibility" value="brd4187c"/>
+    <property key="demos.imageFile" value="Examples/lock-app-wifi/rs9116/BRD4187C/chip-efr32-lock-example.s37"/>
+    <property key="core.quality" value="PRODUCTION"/>
+    <property key="filters" value="Wireless\ Technology|Matter"/>    
+    <description></description>
+   </demo>
+  <demo name="brd2601b.demo.light_switch_app_thread" label="Matter - Lock App">
+    <property key="demos.blurb" value="Matter - Lock App"/>
+    <property key="core.partCompatibility" value=".*"/>
+    <property key="core.boardCompatibility" value="brd2601b"/>
+    <property key="demos.imageFile" value="Examples/light-switch-app-thread/BRD2601B/chip-efr32-lock-example.s37"/>
+    <property key="core.quality" value="PRODUCTION"/>
+    <property key="filters" value="Wireless\ Technology|Matter"/>    
+    <description></description>
+   </demo>  
+  <demo name="brd2703A.demo.light_switch_app_thread" label="Matter - Lock App">
+    <property key="demos.blurb" value="Matter - Lock App"/>
+    <property key="core.partCompatibility" value=".*"/>
+    <property key="core.boardCompatibility" value="brd2703a"/>
+    <property key="demos.imageFile" value="Examples/light-switch-app-thread/BRD2703A/chip-efr32-lock-example.s37"/>
+    <property key="core.quality" value="PRODUCTION"/>
+    <property key="filters" value="Wireless\ Technology|Matter"/>    
+    <description></description>
+   </demo>
+  <demo name="brd4161a.demo.light_switch_app_thread" label="Matter - Lock App">
+    <property key="demos.blurb" value="Matter - Lock App"/>
+    <property key="core.partCompatibility" value=".*"/>
+    <property key="core.boardCompatibility" value="brd4161a"/>
+    <property key="demos.imageFile" value="Examples/light-switch-app-thread/BRD4161A/chip-efr32-lock-example.s37"/>
+    <property key="core.quality" value="PRODUCTION"/>
+    <property key="filters" value="Wireless\ Technology|Matter"/>    
+    <description></description>
+   </demo>
+  <demo name="brd4164a.demo.light_switch_app_thread" label="Matter - Lock App">
+    <property key="demos.blurb" value="Matter - Lock App"/>
+    <property key="core.partCompatibility" value=".*"/>
+    <property key="core.boardCompatibility" value="brd4164a"/>
+    <property key="demos.imageFile" value="Examples/light-switch-app-thread/BRD4164A/chip-efr32-lock-example.s37"/>
+    <property key="core.quality" value="PRODUCTION"/>
+    <property key="filters" value="Wireless\ Technology|Matter"/>    
+    <description></description>
+   </demo>     
+  <demo name="brd4166a.demo.light_switch_app_thread" label="Matter - Lock App">
+    <property key="demos.blurb" value="Matter - Lock App"/>
+    <property key="core.partCompatibility" value=".*"/>
+    <property key="core.boardCompatibility" value="brd4166a"/>
+    <property key="demos.imageFile" value="Examples/light-switch-app-thread/BRD4166A/chip-efr32-lock-example.s37"/>
+    <property key="core.quality" value="PRODUCTION"/>
+    <property key="filters" value="Wireless\ Technology|Matter"/>    
+    <description></description>
+   </demo>  
+  <demo name="brd4186c.demo.light_switch_app_thread" label="Matter - Lock App">
+    <property key="demos.blurb" value="Matter - Lock App"/>
+    <property key="core.partCompatibility" value=".*"/>
+    <property key="core.boardCompatibility" value="brd4186c"/>
+    <property key="demos.imageFile" value="Examples/light-switch-app-thread/BRD4186C/chip-efr32-lock-example.s37"/>
+    <property key="core.quality" value="PRODUCTION"/>
+    <property key="filters" value="Wireless\ Technology|Matter"/>    
+    <description></description>
+   </demo>   
+  <demo name="brd4187c.demo.light_switch_app_thread" label="Matter - Lock App">
+    <property key="demos.blurb" value="Matter - Lock App"/>
+    <property key="core.partCompatibility" value=".*"/>
+    <property key="core.boardCompatibility" value="brd4187c"/>
+    <property key="demos.imageFile" value="Examples/light-switch-app-thread/BRD4187C/chip-efr32-lock-example.s37"/>
+    <property key="core.quality" value="PRODUCTION"/>
+    <property key="filters" value="Wireless\ Technology|Matter"/>    
+    <description></description>
+   </demo>  
+  <demo name="brd2601b.demo.window_app_thread" label="Matter - Lock App">
+    <property key="demos.blurb" value="Matter - Lock App"/>
+    <property key="core.partCompatibility" value=".*"/>
+    <property key="core.boardCompatibility" value="brd2601b"/>
+    <property key="demos.imageFile" value="Examples/light-switch-app-thread/BRD2601B/chip-efr32-lock-example.s37"/>
+    <property key="core.quality" value="PRODUCTION"/>
+    <property key="filters" value="Wireless\ Technology|Matter"/>    
+   <description></description>
+  <demo name="brd2703a.demo.window_app_thread" label="Matter - Lock App">
+    <property key="demos.blurb" value="Matter - Lock App"/>
+    <property key="core.partCompatibility" value=".*"/>
+    <property key="core.boardCompatibility" value="brd2703a"/>
+    <property key="demos.imageFile" value="Examples/window-app-thread/BRD2703A/chip-efr32-lock-example.s37"/>
+    <property key="core.quality" value="PRODUCTION"/>
+    <property key="filters" value="Wireless\ Technology|Matter"/>    
+    <description></description>  
+   </demo> 
+  <demo name="brd4161a.demo.window_app_thread" label="Matter - Lock App">
+    <property key="demos.blurb" value="Matter - Lock App"/>
+    <property key="core.partCompatibility" value=".*"/>
+    <property key="core.boardCompatibility" value="brd4161a"/>
+    <property key="demos.imageFile" value="Examples/window-app-thread/BRD4161A/chip-efr32-lock-example.s37"/>
+    <property key="core.quality" value="PRODUCTION"/>
+    <property key="filters" value="Wireless\ Technology|Matter"/>    
+    <description></description>  
+   </demo> 
+  <demo name="brd4164a.demo.window_app_thread" label="Matter - Lock App">
+    <property key="demos.blurb" value="Matter - Lock App"/>
+    <property key="core.partCompatibility" value=".*"/>
+    <property key="core.boardCompatibility" value="brd4164a"/>
+    <property key="demos.imageFile" value="Examples/window-app-thread/BRD4164A/chip-efr32-lock-example.s37"/>
+    <property key="core.quality" value="PRODUCTION"/>
+    <property key="filters" value="Wireless\ Technology|Matter"/>    
+    <description></description>  
+   </demo> 
+  <demo name="brd4166a.demo.window_app_thread" label="Matter - Lock App">
+    <property key="demos.blurb" value="Matter - Lock App"/>
+    <property key="core.partCompatibility" value=".*"/>
+    <property key="core.boardCompatibility" value="brd4166a"/>
+    <property key="demos.imageFile" value="Examples/window-app-thread/BRD4166A/chip-efr32-lock-example.s37"/>
+    <property key="core.quality" value="PRODUCTION"/>
+    <property key="filters" value="Wireless\ Technology|Matter"/>    
+    <description></description>  
+   </demo> 
+  <demo name="brd4186a.demo.window_app_thread" label="Matter - Lock App">
+    <property key="demos.blurb" value="Matter - Lock App"/>
+    <property key="core.partCompatibility" value=".*"/>
+    <property key="core.boardCompatibility" value="brd4186a"/>
+    <property key="demos.imageFile" value="Examples/window-app-thread/BRD4186A/chip-efr32-lock-example.s37"/>
+    <property key="core.quality" value="PRODUCTION"/>
+    <property key="filters" value="Wireless\ Technology|Matter"/>    
+    <description></description>  
+   </demo> 
+  <demo name="brd4186c.demo.window_app_thread" label="Matter - Lock App">
+    <property key="demos.blurb" value="Matter - Lock App"/>
+    <property key="core.partCompatibility" value=".*"/>
+    <property key="core.boardCompatibility" value="brd4186c"/>
+    <property key="demos.imageFile" value="Examples/window-app-thread/BRD4186C/chip-efr32-lock-example.s37"/>
+    <property key="core.quality" value="PRODUCTION"/>
+    <property key="filters" value="Wireless\ Technology|Matter"/>    
+    <description></description>  
+   </demo> 
+  <demo name="brd4187a.demo.window_app_thread" label="Matter - Lock App">
+    <property key="demos.blurb" value="Matter - Lock App"/>
+    <property key="core.partCompatibility" value=".*"/>
+    <property key="core.boardCompatibility" value="brd4187a"/>
+    <property key="demos.imageFile" value="Examples/window-app-thread/BRD4187A/chip-efr32-lock-example.s37"/>
+    <property key="core.quality" value="PRODUCTION"/>
+    <property key="filters" value="Wireless\ Technology|Matter"/>    
+    <description></description>  
+   </demo> 
+  <demo name="brd4187c.demo.window_app_thread" label="Matter - Lock App">
+    <property key="demos.blurb" value="Matter - Lock App"/>
+    <property key="core.partCompatibility" value=".*"/>
+    <property key="core.boardCompatibility" value="brd4187c"/>
+    <property key="demos.imageFile" value="Examples/window-app-thread/BRD4187C/chip-efr32-lock-example.s37"/>
+    <property key="core.quality" value="PRODUCTION"/>
+    <property key="filters" value="Wireless\ Technology|Matter"/>    
+    <description></description>  
+   </demo> 
 </demos>
