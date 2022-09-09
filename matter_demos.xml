@@ -124,7 +124,7 @@
     <property key="demos.blurb" value="Matter - Light App"/>
     <property key="core.partCompatibility" value=".*"/>
     <property key="core.boardCompatibility" value="brd4186c"/>
-    <property key="demos.imageFile" value="Examples/lighting-app-wifi/wf200/BRD4164A/chip-efr32-lighting-example.s37"/>
+    <property key="demos.imageFile" value="Examples/lighting-app-wifi/wf200/BRD4186C/chip-efr32-lighting-example.s37"/>
     <property key="core.readmeFiles" value="https://github.com/SiliconLabs/matter#readme"/>
     <property key="core.quality" value="PRODUCTION"/>
     <property key="filters" value="Wireless\ Technology|Matter"/>
@@ -134,7 +134,7 @@
     <property key="demos.blurb" value="Matter - Light App"/>
     <property key="core.partCompatibility" value=".*"/>
     <property key="core.boardCompatibility" value="brd4187c"/>
-    <property key="demos.imageFile" value="Examples/lighting-app-wifi/wf200/BRD4164A/chip-efr32-lighting-example.s37"/>
+    <property key="demos.imageFile" value="Examples/lighting-app-wifi/wf200/BRD4187C/chip-efr32-lighting-example.s37"/>
     <property key="core.readmeFiles" value="https://github.com/SiliconLabs/matter#readme"/>
     <property key="core.quality" value="PRODUCTION"/>
     <property key="filters" value="Wireless\ Technology|Matter"/>
