@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <demos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.silabs.com/ss/Demo.ecore">
 	<demo name="brd4162a.demo.thermostat_app_thread" label="Matter - Thermostat over Thread">
 		<property key="demos.blurb" value="Matter - Thermostat app"/>
