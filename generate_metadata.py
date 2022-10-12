@@ -45,14 +45,17 @@ for example in list_of_examples:
 
         example_map['Examples'][example_name] = {'wf200': os.listdir(
             os.path.join(examples_dir, example, 'wf200')),
-            '91x': os.listdir(
-            os.path.join(examples_dir, example, '91x'))}
+            'rs9116': os.listdir(
+            os.path.join(examples_dir, example, 'rs9116')),
+            'siwx917': os.listdir(
+            os.path.join(examples_dir, example, 'siwx917'))}
+
 
 
 '''
 generate demo metadata
 '''
-'''
+
 demos = ET.Element('demos')
 
 demos.set('xmlns:xsi', "http://www.w3.org/2001/XMLSchema-instance")
@@ -104,7 +107,7 @@ for example in example_map['Examples']:
                 'value', "https://github.com/SiliconLabs/matter#readme")
 
             filtersProp.set('key', 'filters')
-            filtersProp.set('value', "Wireless\ Technology | Matter")
+            filtersProp.set('value', "Wireless\ Technology|Matter")
 
             qualityProp.set('key', 'core.quality')
             qualityProp.set('value', "PRODUCTION")
@@ -157,12 +160,12 @@ for example in example_map['Examples']:
                     'value', "https://github.com/SiliconLabs/matter#readme")
 
                 filtersProp.set('key', 'filters')
-                filtersProp.set('value', "Wireless\ Technology | Matter")
+                filtersProp.set('value', "Wireless\ Technology|Matter")
 
                 qualityProp.set('key', 'core.quality')
                 qualityProp.set('value', "PRODUCTION")
                 description.text = "".join("This is a Matter " + demo_name.capitalize() +
-                                           " Application for " + board.upper() + " to be used with " + ('RS9116' if wstk == '91x' else wstk.upper()) + " Wi-Fi expansion board")
+                                           " Application for " + board.upper() + " to be used with " +  wstk.upper() + " Wi-Fi expansion board")
 
 outputString = ET.tostring(demos, encoding='UTF-8')
 dom = xml.dom.minidom.parseString(outputString)
@@ -171,4 +174,3 @@ pretty_xml_as_string = dom.toprettyxml()
 demosXmlFilePath = os.path.join(root_dir, "demos.xml")
 with open(demosXmlFilePath, "w") as demosXmlFile:
     demosXmlFile.write(pretty_xml_as_string)
-'''
