@@ -248,7 +248,7 @@
 		<property key="core.readmeFiles" value="https://github.com/SiliconLabs/matter#readme"/>
 		<property key="filters" value="Wireless\ Technology|Matter"/>
 		<property key="core.quality" value="PRODUCTION"/>
-		<description>This is a Matter Thermostat Application for BRD4187C to be used with SIWX917 Wi-Fi expansion board</description>
+		<description>This is a Matter Thermostat Application for BRD4187C to be used with SiWx917 Wi-Fi expansion board</description>
 	</demo>
 	<demo name="brd4186c.demo.thermostat_app_wifi_siwx917" label="Matter - Thermostat over Wi-Fi">
 		<property key="demos.blurb" value="Matter - Thermostat app"/>
@@ -258,7 +258,7 @@
 		<property key="core.readmeFiles" value="https://github.com/SiliconLabs/matter#readme"/>
 		<property key="filters" value="Wireless\ Technology|Matter"/>
 		<property key="core.quality" value="PRODUCTION"/>
-		<description>This is a Matter Thermostat Application for BRD4186C to be used with SIWX917 Wi-Fi expansion board</description>
+		<description>This is a Matter Thermostat Application for BRD4186C to be used with SiWx917 Wi-Fi expansion board</description>
 	</demo>
 	<demo name="brd4162a.demo.window_app_thread" label="Matter - Window over Thread">
 		<property key="demos.blurb" value="Matter - Window app"/>
@@ -638,7 +638,7 @@
 		<property key="core.readmeFiles" value="https://github.com/SiliconLabs/matter#readme"/>
 		<property key="filters" value="Wireless\ Technology|Matter"/>
 		<property key="core.quality" value="PRODUCTION"/>
-		<description>This is a Matter Lighting Application for BRD4187C to be used with SIWX917 Wi-Fi expansion board</description>
+		<description>This is a Matter Lighting Application for BRD4187C to be used with SiWx917 Wi-Fi expansion board</description>
 	</demo>
 	<demo name="brd4186c.demo.lighting_app_wifi_siwx917" label="Matter - Lighting over Wi-Fi">
 		<property key="demos.blurb" value="Matter - Lighting app"/>
@@ -648,7 +648,7 @@
 		<property key="core.readmeFiles" value="https://github.com/SiliconLabs/matter#readme"/>
 		<property key="filters" value="Wireless\ Technology|Matter"/>
 		<property key="core.quality" value="PRODUCTION"/>
-		<description>This is a Matter Lighting Application for BRD4186C to be used with SIWX917 Wi-Fi expansion board</description>
+		<description>This is a Matter Lighting Application for BRD4186C to be used with SiWx917 Wi-Fi expansion board</description>
 	</demo>
 	<demo name="brd4162a.demo.lock_app_wifi_wf200" label="Matter - Lock over Wi-Fi">
 		<property key="demos.blurb" value="Matter - Lock app"/>
@@ -778,7 +778,7 @@
 		<property key="core.readmeFiles" value="https://github.com/SiliconLabs/matter#readme"/>
 		<property key="filters" value="Wireless\ Technology|Matter"/>
 		<property key="core.quality" value="PRODUCTION"/>
-		<description>This is a Matter Lock Application for BRD4187C to be used with SIWX917 Wi-Fi expansion board</description>
+		<description>This is a Matter Lock Application for BRD4187C to be used with SiWx917 Wi-Fi expansion board</description>
 	</demo>
 	<demo name="brd4186c.demo.lock_app_wifi_siwx917" label="Matter - Lock over Wi-Fi">
 		<property key="demos.blurb" value="Matter - Lock app"/>
@@ -788,7 +788,7 @@
 		<property key="core.readmeFiles" value="https://github.com/SiliconLabs/matter#readme"/>
 		<property key="filters" value="Wireless\ Technology|Matter"/>
 		<property key="core.quality" value="PRODUCTION"/>
-		<description>This is a Matter Lock Application for BRD4186C to be used with SIWX917 Wi-Fi expansion board</description>
+		<description>This is a Matter Lock Application for BRD4186C to be used with SiWx917 Wi-Fi expansion board</description>
 	</demo>
 	<demo name="brd4162a.demo.lock_app_thread" label="Matter - Lock over Thread">
 		<property key="demos.blurb" value="Matter - Lock app"/>
