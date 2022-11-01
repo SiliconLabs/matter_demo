@@ -1,14 +1,39 @@
+from genericpath import isdir
 import os
 import xml.etree.ElementTree as ET
 import xml.dom.minidom
 
 
-'''
-Scan Examples folder to account for all demos present
-'''
 
 root_dir = os.getcwd()
 examples_dir = os.path.join(root_dir, "Examples")
+root_sub_dirs = os.listdir(root_dir)
+
+
+'''
+Recurse all directories and remove undesired files 
+'''
+
+def recurse_dir(file_or_dir):
+
+    if os.path.isdir(file_or_dir):
+        subdirs = os.listdir(file_or_dir)
+        for unit in subdirs:
+            recurse_dir(os.path.join(file_or_dir, unit))
+    else:
+        if '.ds_store' in file_or_dir.lower():
+            os.remove(file_or_dir)
+        if 'BRD' in os.path.basename(os.path.dirname(file_or_dir)):          
+            if '.s37' not in file_or_dir:
+                os.remove(file_or_dir)
+        
+
+recurse_dir(root_dir)
+
+
+'''
+Scan Examples folder to account for all demos present
+'''
 
 example_map = {
     'Examples': {}
@@ -23,26 +48,11 @@ for example in list_of_examples:
 
     example_name = ' '.join((example.split("-")))
     example_tech = (example.split("-"))[-1]
-    if example_tech == 'thread':
-        boards = os.listdir(os.path.join(examples_dir, example))
-        for board in boards:
-            files = os.listdir(os.path.join(examples_dir, example, board))
-            if 'map' in files[0]:
-                os.remove(os.path.join(examples_dir, example, board, files[0]))
+    if example_tech == 'thread':  
         example_map['Examples'][example_name] = os.listdir(
             os.path.join(examples_dir, example))
+
     elif example_tech == 'wifi':
-
-        boards = os.listdir(os.path.join(examples_dir, example))
-        for board in boards:
-            brds = os.listdir(os.path.join(examples_dir, example, board))
-            for brd in brds:
-                files = os.listdir(os.path.join(
-                    examples_dir, example, board, brd))
-                if 'map' in files[0]:
-                    os.remove(os.path.join(examples_dir,
-                              example, board, brd, files[0]))
-
         example_map['Examples'][example_name] = {'wf200': os.listdir(
             os.path.join(examples_dir, example, 'wf200')),
             'rs9116': os.listdir(
@@ -165,7 +175,7 @@ for example in example_map['Examples']:
                 qualityProp.set('key', 'core.quality')
                 qualityProp.set('value', "PRODUCTION")
                 description.text = "".join("This is a Matter " + demo_name.capitalize() +
-                                           " Application for " + board.upper() + " to be used with " +  wstk.upper() + " Wi-Fi expansion board")
+                                           " Application for " + board.upper() + " to be used with " +  ('SiWx917' if wstk.lower() == 'siwx917' else wstk.upper()) + (' Wi-Fi Evaluation kit' if wstk.lower() == 'rs9116' else ' Wi-Fi expansion board'))
 
 outputString = ET.tostring(demos, encoding='UTF-8')
 dom = xml.dom.minidom.parseString(outputString)
