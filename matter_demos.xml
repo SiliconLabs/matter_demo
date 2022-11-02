@@ -30,6 +30,16 @@
 		<property key="core.quality" value="PRODUCTION"/>
 		<description>This is a Matter Window Application for BRD4186C to be used with WF200 Wi-Fi expansion board</description>
 	</demo>
+	<demo name="brd4187c.demo.window_app_wifi_rs9116" label="Matter - Window over Wi-Fi">
+		<property key="demos.blurb" value="Matter - Window app"/>
+		<property key="core.partCompatibility" value=".*"/>
+		<property key="core.boardCompatibility" value="brd4187c"/>
+		<property key="demos.imageFile" value="Examples/window-app-wifi/rs9116/BRD4187C/chip-efr32-window-example.s37"/>
+		<property key="core.readmeFiles" value="https://github.com/SiliconLabs/matter#readme"/>
+		<property key="filters" value="Wireless\ Technology|Matter"/>
+		<property key="core.quality" value="PRODUCTION"/>
+		<description>This is a Matter Window Application for BRD4187C to be used with RS9116 Wi-Fi Evaluation kit</description>
+	</demo>
 	<demo name="brd4161a.demo.window_app_wifi_rs9116" label="Matter - Window over Wi-Fi">
 		<property key="demos.blurb" value="Matter - Window app"/>
 		<property key="core.partCompatibility" value=".*"/>
@@ -39,6 +49,16 @@
 		<property key="filters" value="Wireless\ Technology|Matter"/>
 		<property key="core.quality" value="PRODUCTION"/>
 		<description>This is a Matter Window Application for BRD4161A to be used with RS9116 Wi-Fi Evaluation kit</description>
+	</demo>
+	<demo name="brd4186c.demo.window_app_wifi_rs9116" label="Matter - Window over Wi-Fi">
+		<property key="demos.blurb" value="Matter - Window app"/>
+		<property key="core.partCompatibility" value=".*"/>
+		<property key="core.boardCompatibility" value="brd4186c"/>
+		<property key="demos.imageFile" value="Examples/window-app-wifi/rs9116/BRD4186C/chip-efr32-window-example.s37"/>
+		<property key="core.readmeFiles" value="https://github.com/SiliconLabs/matter#readme"/>
+		<property key="filters" value="Wireless\ Technology|Matter"/>
+		<property key="core.quality" value="PRODUCTION"/>
+		<description>This is a Matter Window Application for BRD4186C to be used with RS9116 Wi-Fi Evaluation kit</description>
 	</demo>
 	<demo name="brd4187c.demo.window_app_wifi_siwx917" label="Matter - Window over Wi-Fi">
 		<property key="demos.blurb" value="Matter - Window app"/>
@@ -210,6 +230,16 @@
 		<property key="core.quality" value="PRODUCTION"/>
 		<description>This is a Matter Light switch Application for BRD4186C to be used with WF200 Wi-Fi expansion board</description>
 	</demo>
+	<demo name="brd4187c.demo.light_switch_app_wifi_rs9116" label="Matter - Light switch over Wi-Fi">
+		<property key="demos.blurb" value="Matter - Light switch app"/>
+		<property key="core.partCompatibility" value=".*"/>
+		<property key="core.boardCompatibility" value="brd4187c"/>
+		<property key="demos.imageFile" value="Examples/light-switch-app-wifi/rs9116/BRD4187C/chip-efr32-light-switch-example.s37"/>
+		<property key="core.readmeFiles" value="https://github.com/SiliconLabs/matter#readme"/>
+		<property key="filters" value="Wireless\ Technology|Matter"/>
+		<property key="core.quality" value="PRODUCTION"/>
+		<description>This is a Matter Light switch Application for BRD4187C to be used with RS9116 Wi-Fi Evaluation kit</description>
+	</demo>
 	<demo name="brd4161a.demo.light_switch_app_wifi_rs9116" label="Matter - Light switch over Wi-Fi">
 		<property key="demos.blurb" value="Matter - Light switch app"/>
 		<property key="core.partCompatibility" value=".*"/>
@@ -219,6 +249,16 @@
 		<property key="filters" value="Wireless\ Technology|Matter"/>
 		<property key="core.quality" value="PRODUCTION"/>
 		<description>This is a Matter Light switch Application for BRD4161A to be used with RS9116 Wi-Fi Evaluation kit</description>
+	</demo>
+	<demo name="brd4186c.demo.light_switch_app_wifi_rs9116" label="Matter - Light switch over Wi-Fi">
+		<property key="demos.blurb" value="Matter - Light switch app"/>
+		<property key="core.partCompatibility" value=".*"/>
+		<property key="core.boardCompatibility" value="brd4186c"/>
+		<property key="demos.imageFile" value="Examples/light-switch-app-wifi/rs9116/BRD4186C/chip-efr32-light-switch-example.s37"/>
+		<property key="core.readmeFiles" value="https://github.com/SiliconLabs/matter#readme"/>
+		<property key="filters" value="Wireless\ Technology|Matter"/>
+		<property key="core.quality" value="PRODUCTION"/>
+		<description>This is a Matter Light switch Application for BRD4186C to be used with RS9116 Wi-Fi Evaluation kit</description>
 	</demo>
 	<demo name="brd4187c.demo.light_switch_app_wifi_siwx917" label="Matter - Light switch over Wi-Fi">
 		<property key="demos.blurb" value="Matter - Light switch app"/>
