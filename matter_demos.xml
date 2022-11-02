@@ -680,16 +680,6 @@
 		<property key="core.quality" value="PRODUCTION"/>
 		<description>This is a Matter Lighting Application for BRD4186C to be used with SiWx917 Wi-Fi expansion board</description>
 	</demo>
-	<demo name="brd4162a.demo.lock_app_wifi_wf200" label="Matter - Lock over Wi-Fi">
-		<property key="demos.blurb" value="Matter - Lock app"/>
-		<property key="core.partCompatibility" value=".*"/>
-		<property key="core.boardCompatibility" value="brd4162a"/>
-		<property key="demos.imageFile" value="Examples/lock-app-wifi/wf200/BRD4162A/chip-efr32-lock-example.s37"/>
-		<property key="core.readmeFiles" value="https://github.com/SiliconLabs/matter#readme"/>
-		<property key="filters" value="Wireless\ Technology|Matter"/>
-		<property key="core.quality" value="PRODUCTION"/>
-		<description>This is a Matter Lock Application for BRD4162A to be used with WF200 Wi-Fi expansion board</description>
-	</demo>
 	<demo name="brd4187c.demo.lock_app_wifi_wf200" label="Matter - Lock over Wi-Fi">
 		<property key="demos.blurb" value="Matter - Lock app"/>
 		<property key="core.partCompatibility" value=".*"/>
@@ -709,26 +699,6 @@
 		<property key="filters" value="Wireless\ Technology|Matter"/>
 		<property key="core.quality" value="PRODUCTION"/>
 		<description>This is a Matter Lock Application for BRD4161A to be used with WF200 Wi-Fi expansion board</description>
-	</demo>
-	<demo name="brd4164a.demo.lock_app_wifi_wf200" label="Matter - Lock over Wi-Fi">
-		<property key="demos.blurb" value="Matter - Lock app"/>
-		<property key="core.partCompatibility" value=".*"/>
-		<property key="core.boardCompatibility" value="brd4164a"/>
-		<property key="demos.imageFile" value="Examples/lock-app-wifi/wf200/BRD4164A/chip-efr32-lock-example.s37"/>
-		<property key="core.readmeFiles" value="https://github.com/SiliconLabs/matter#readme"/>
-		<property key="filters" value="Wireless\ Technology|Matter"/>
-		<property key="core.quality" value="PRODUCTION"/>
-		<description>This is a Matter Lock Application for BRD4164A to be used with WF200 Wi-Fi expansion board</description>
-	</demo>
-	<demo name="brd4163a.demo.lock_app_wifi_wf200" label="Matter - Lock over Wi-Fi">
-		<property key="demos.blurb" value="Matter - Lock app"/>
-		<property key="core.partCompatibility" value=".*"/>
-		<property key="core.boardCompatibility" value="brd4163a"/>
-		<property key="demos.imageFile" value="Examples/lock-app-wifi/wf200/BRD4163A/chip-efr32-lock-example.s37"/>
-		<property key="core.readmeFiles" value="https://github.com/SiliconLabs/matter#readme"/>
-		<property key="filters" value="Wireless\ Technology|Matter"/>
-		<property key="core.quality" value="PRODUCTION"/>
-		<description>This is a Matter Lock Application for BRD4163A to be used with WF200 Wi-Fi expansion board</description>
 	</demo>
 	<demo name="brd4186c.demo.lock_app_wifi_wf200" label="Matter - Lock over Wi-Fi">
 		<property key="demos.blurb" value="Matter - Lock app"/>
